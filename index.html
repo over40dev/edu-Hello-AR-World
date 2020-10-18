@@ -9,5 +9,13 @@
     <!-- ar.js library -->
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
   </head>
-  <body></body>
+  <body>
+    <a-scene embedded arjs>
+      <a-marker-camera preset="hiro">
+        <a-text>
+          value="Hello, World"
+        </a-text>
+      </a-marker-camera>
+    </a-scene>
+  </body>
 </html>
